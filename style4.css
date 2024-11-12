@@ -1,0 +1,177 @@
+/* Para dispositivos móviles */
+.hide {
+  display: none;
+}
+
+img.car {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+
+div.circule {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.30);
+  width: 45vw;
+  height: 45vw;
+  border-radius: 50%;
+}
+
+div.circule2 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.45);
+  width: 40vw;
+  height: 40vw;
+  border-radius: 50%;
+}
+
+div.circule3 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.50);
+  width: 33vw;
+  height: 33vw;
+  border-radius: 50%;
+}
+
+h1, h2, h3 {
+  font-family: 'Acme', sans-serif;
+}
+
+header {
+  min-height: 75px;
+  padding: 0;
+}
+
+.image-1 {
+  width: 100%;
+  height: 50vw;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-image: url("https://cdn7.kiwilimon.com/recetaimagen/30038/640x640/32103.jpg.webp");
+}
+
+body {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.intro {
+  width: 100%;  
+  text-align: center;
+  padding: 20px;
+}
+
+div.about {
+  width: 100%;
+  margin: auto;
+  background-color: rgba(244, 155, 200, 0.6);  
+  text-align: center;
+  color: #000000;
+  padding-top: 20px;
+}
+
+div.about p {
+  padding: 0 20px;
+  text-align: left;
+}
+
+.aboutlg {
+  width: 90%;
+  margin: auto;
+  background-color: rgba(248, 248, 255, 0.4);  
+  text-align: center;
+  color: #000000;
+  padding-top: 7.55%;
+  padding-bottom: 1%;
+}
+
+.welcome {
+  width: 100%;
+  margin: 0;
+  background-color: rgba(64, 224, 208);  
+  text-align: left;
+  padding-top: 0;
+}
+
+.text {
+  background-color: rgba(244, 155, 200, 0.6);
+  width: 100%;
+  margin: 0; 
+  text-align: left;
+  padding-top: 3%;
+}
+
+footer {
+  width: 100%;
+  margin: auto;
+  background-color: rgba(128, 128, 128, 0.3);
+  text-align: center;
+  padding: 15px;
+}
+
+footer h5 {
+  padding-top: 20px;
+  margin: 0;
+  font-family: 'Acme', sans-serif;
+}
+
+footer p {
+  padding-top: 5px;
+  margin: 0;
+  font-family: 'Acme', sans-serif;
+}
+
+nav a h1:hover {
+  color: rgb(199, 21, 133);
+}
+
+a.nav-link:hover {
+  background-color: rgb(199, 21, 133);
+}
+
+/* Para escritorio */
+@media only screen and (min-width: 768px) {
+  .hide {
+    display: block;
+  }
+  
+  .hidesm {
+    display: none;
+  }
+
+  footer {
+    width: 90%;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.3);
+    text-align: center;
+    padding: 15px;
+  }
+
+  header {
+    min-height: 50px;
+    padding: 10px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  }
+
+  .image-1 {
+    width: 100%;
+    height: 48vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("logo.png");
+  }
+}
